@@ -1,5 +1,5 @@
 //
-//  NatWeexStream.h
+//  WeexNatStream.h
 //
 //  Created by huangyake on 17/1/7.
 //  Copyright © 2017 Nat. All rights reserved.
@@ -10,10 +10,10 @@
 
 #import <WeexSDK/WeexSDK.h>
 
-@protocol NatWeexStreamPro <WXModuleProtocol>
+@protocol WeexNatStreamPro <WXModuleProtocol>
 - (void)fetch:(NSDictionary *)params :(WXModuleCallback)callback;
 @end
 
-@interface NatWeexStream : NSObject<NatWeexStreamPro>
+@interface WeexNatStream : NSObject<WeexNatStreamPro>
 
 @end
