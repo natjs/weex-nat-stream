@@ -2,13 +2,13 @@
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="nat-network-stream"
-    version="0.1.0">
+    version="0.1.2">
     <name>nat-network-stream</name>
-    <description></description>
+    <description>Nat.js module: Stream (fetch)</description>
     <license>MIT</license>
-    <keywords>weex,plugin,nat,natjs,network,fetch</keywords>
-    <repo>https://github.com/Natjs/weex-nat-network-stream.git</repo>
-    <issue>https://github.com/Natjs/weex-nat-network-stream/issues</issue>
+    <keywords>weex,plugin,nat,natjs,network,stream,fetch</keywords>
+    <repo>https://github.com/natjs/weex-nat-network-stream.git</repo>
+    <issue>https://github.com/natjs/weex-nat-network-stream/issues</issue>
     
      <!-- ios -->
      <platform name="ios">
