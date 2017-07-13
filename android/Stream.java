@@ -1,7 +1,8 @@
 package com.nat.weex;
 
-import com.nat.network_stream.HLModuleResultListener;
-import com.nat.network_stream.HLStreamModule;
+import com.nat.stream.ModuleResultListener;
+import com.nat.stream.StreamModule;
+
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
 import com.taobao.weex.common.WXModule;
@@ -11,11 +12,11 @@ import com.taobao.weex.common.WXModule;
  * Copyright (c) 2017 Nat. All rights reserved.
  */
 
-public class NetworkStreamModule extends WXModule {
+public class Stream extends WXModule {
 
     @JSMethod
     public void fetch(String str, final JSCallback jsCallback){
-        HLStreamModule.getInstance(mWXSDKInstance.getContext()).fetch(str, new HLModuleResultListener() {
+        StreamModule.getInstance(mWXSDKInstance.getContext()).fetch(str, new ModuleResultListener() {
             @Override
             public void onResult(Object o) {
                 jsCallback.invoke(o);

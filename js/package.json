@@ -1,5 +1,5 @@
 {
-  "name": "weex-nat-network-stream",
+  "name": "weex-nat-stream",
   "version": "0.0.1",
   "description": "Nat.js module: Stream (fetch)",
   "scripts": {

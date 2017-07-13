@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
-    id="nat-network-stream"
-    version="0.1.2">
-    <name>nat-network-stream</name>
+    id="nat-stream"
+    version="0.1.3">
+    <name>nat-stream</name>
     <description>Nat.js module: Stream (fetch)</description>
     <license>MIT</license>
     <keywords>weex,plugin,nat,natjs,network,stream,fetch</keywords>
-    <repo>https://github.com/natjs/weex-nat-network-stream.git</repo>
-    <issue>https://github.com/natjs/weex-nat-network-stream/issues</issue>
+    <repo>https://github.com/natjs/weex-nat-stream.git</repo>
+    <issue>https://github.com/natjs/weex-nat-stream/issues</issue>
     
      <!-- ios -->
      <platform name="ios">
@@ -17,9 +17,10 @@
              <feature name="WXTestModule">
                  <param name="category" value="module" />
                  <param name="ios-package" value="WeexNatStream" />
-                 <param name="api" value="nat/network/stream" />
+                 <param name="api" value="nat/stream" />
              </feature>
          </config-file>
+
          <header-file src="ios/WeexNatStream.h"/>
          <source-file src="ios/WeexNatStream.m"/>
      </platform>
@@ -27,10 +28,10 @@
      <!-- android -->
      <platform name="android">
         <config-file target="config.xml" parent="/*">
-             <feature name="NetworkStreamModule">
+             <feature name="Stream">
                  <param name="category" value="module" />
-                 <param name="android-package" value="com.nat.weex.NetworkStreamModule" />
-                 <param name="api" value="nat/network/stream" />
+                 <param name="android-package" value="com.nat.weex.Stream" />
+                 <param name="api" value="nat/stream" />
              </feature>
         </config-file>
 
@@ -40,11 +41,9 @@
              <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         </config-file>
 
-        <source-file
-             src="android/NetworkStreamModule.java"
-            target-dir="src/com/alibaba/weex/nat/NetworkStreamModule.java" />
+        <source-file src="android/Stream.java" target-dir="src/com/instapp/nat/stream" />
 
-        <framework src="com.nat:network-stream:1.0.1" />
+        <framework src="com.nat:stream:1.0.3" />
      </platform>
 
 </plugin>

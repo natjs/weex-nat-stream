@@ -1,9 +1,8 @@
 {
-    "namespace": "",
-    "latestVersion": "0.1.2",
     "nameInfo": {
-        "fullname": "nat-network-stream",
-        "name": "nat-network-stream",
+        "fullname": "nat-stream",
+        "name": "nat-stream",
         "namespace": ""
-    }
+    },
+    "latestVersion": "0.1.3"
 }

@@ -1,11 +1,11 @@
-# nat-network-stream
+# nat-stream
 
 - [Documentation](http://natjs.com/#/#stream)
-- [Github](https://github.com/natjs/weex-nat-network-stream)
+- [Github](https://github.com/natjs/weex-nat-stream)
 
 ## Installation
 ```
-weexpack plugin add nat-network-stream
+weexpack plugin add nat-stream
 ```
 
 ```
