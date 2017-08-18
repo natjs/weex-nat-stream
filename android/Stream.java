@@ -8,8 +8,8 @@ import com.taobao.weex.bridge.JSCallback;
 import com.taobao.weex.common.WXModule;
 
 /**
- * Created by Daniel on 17/2/17.
- * Copyright (c) 2017 Nat. All rights reserved.
+ * Created by Acathur on 17/2/17.
+ * Copyright (c) 2017 Instapp. All rights reserved.
  */
 
 public class Stream extends WXModule {
