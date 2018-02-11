@@ -7,11 +7,12 @@
 
 
 #import <Foundation/Foundation.h>
-
 #import <WeexSDK/WeexSDK.h>
 
 @protocol WeexNatStreamPro <WXModuleProtocol>
+
 - (void)fetch:(NSDictionary *)params :(WXModuleCallback)callback;
+
 @end
 
 @interface WeexNatStream : NSObject<WeexNatStreamPro>

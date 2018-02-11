@@ -1,6 +1,6 @@
 # nat-stream
 
-- [Documentation](http://natjs.com/#/#stream)
+- [Documentation](http://natjs.com/#/reference/network/stream)
 - [Github](https://github.com/natjs/weex-nat-stream)
 
 ## Installation
@@ -14,11 +14,11 @@ npm install natjs --save
 
 ## Usage
 
-Use in weex file (.we)
+Use in weex project (`.vue`/`.we`)
 
 ```html
 <script>
-import 'Nat' from 'natjs'
+import Nat from 'natjs'
 
 Nat.fetch('http://domain.com/api', {
     method: 'GET',
